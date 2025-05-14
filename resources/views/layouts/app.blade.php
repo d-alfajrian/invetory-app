@@ -21,6 +21,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('products.create') }}">Add Product</a>
                     </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="{{ route('transactions.create') }}">Transactions</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="{{ route('transactions.index') }}">Transactions</a>
+                    </li>
                 </ul>
             </div>
         </div>
