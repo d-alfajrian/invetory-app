@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
+use Carbon\Carbon;
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -70,7 +70,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Jakarta',
 
     /*
     |--------------------------------------------------------------------------
@@ -186,3 +186,6 @@ return [
     ])->toArray(),
 
 ];
+
+// When creating the transaction
+$transaction->created_at = Carbon::now('Asia/Jakarta');
