@@ -1,4 +1,4 @@
-# Agenda Harian dengan Reminder
+# Aplikasi Manajemen Inventory 
 #### Video Demo: (https://www.youtube.com/watch?v=Vontz6PqP58)
 #### Description:
 Aplikasi manajemen inventori sederhana untuk toko "MUA Mart". Memungkinkan manajemen produk dan transaksi penjualan.
