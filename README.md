@@ -62,16 +62,16 @@ Tabel utama yang digunakan:
 Cara Clone dari Github
 Type in Terminal Visual Studio :
 
-git clone https://github.com/d-alfajrian/invetory-app.git
-cp .env.example .env
-composer install
-npm install
-php artisan key:generate
+- git clone https://github.com/d-alfajrian/invetory-app.git
+- cp .env.example .env
+- composer install
+- npm install
+- php artisan key:generate
 
 Cara Upload or Download :
 
-untuk upload "git push"
-untuk download "git pull"
+- untuk upload "git push"
+- untuk download "git pull"
 
 ### software yang harus terinstall
 - Laragon 
